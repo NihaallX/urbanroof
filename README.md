@@ -1,4 +1,4 @@
-# 🏠 UrbanRoof — AI Property Enquiry Assistant
+#  UrbanRoof — AI Property Enquiry Assistant
 
 An AI-powered customer support chatbot for property-related issues — built with **Groq + Llama 3.3 70B** and a premium glassmorphism chat UI.
 
@@ -8,16 +8,16 @@ Customers describe problems like dampness, leaks, or cracks, and the assistant r
 
 ## ✨ Features
 
-- 🤖 **Powered by Llama 3.3 70B** via Groq — fast, accurate, instruction-following
-- 🧠 **Smart intent classification** — dampness, leakage, cracks, plumbing, external wall damage, and more
-- 💬 **Structured responses** — acknowledgment → clarifying questions → safe steps → professional recommendation
-- 🔒 **Strict safety rules** — no diagnosis, no cost claims, no guarantees
-- 🌙 **Premium dark UI** — glassmorphism, smooth animations, responsive design
-- 📞 **UrbanRoof contact integration** — shares website & phone when users are ready to proceed
+-  **Powered by Llama 3.3 70B** via Groq — fast, accurate, instruction-following
+-  **Smart intent classification** — dampness, leakage, cracks, plumbing, external wall damage, and more
+-  **Structured responses** — acknowledgment → clarifying questions → safe steps → professional recommendation
+-  **Strict safety rules** — no diagnosis, no cost claims, no guarantees
+-  **Premium dark UI** — glassmorphism, smooth animations, responsive design
+-  **UrbanRoof contact integration** — shares website & phone when users are ready to proceed
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 # Clone
@@ -66,7 +66,7 @@ Get a free Groq API key at [console.groq.com](https://console.groq.com).
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 urbanroof/
@@ -88,7 +88,7 @@ urbanroof/
 
 ---
 
-## 🔐 Safety Rules
+##  Safety Rules
 
 The system prompt enforces these rules on every response:
 
@@ -103,7 +103,7 @@ The system prompt enforces these rules on every response:
 
 ---
 
-## 📞 Contact UrbanRoof
+##  Contact UrbanRoof
 
 - 🌐 [www.urbanroof.in](https://www.urbanroof.in)
 - 📞 +91 89288 05805
