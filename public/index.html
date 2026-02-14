@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UrbanRoof — Property Assistant</title>
+  <meta name="description" content="AI-powered property enquiry assistant by UrbanRoof. Get help with dampness, leaks, cracks, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Background decoration -->
+    <div class="bg-glow bg-glow--1"></div>
+    <div class="bg-glow bg-glow--2"></div>
+    <div class="bg-glow bg-glow--3"></div>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header__brand">
+        <div class="header__icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+            <polyline points="9 22 9 12 15 12 15 22" />
+          </svg>
+        </div>
+        <div>
+          <h1 class="header__title">UrbanRoof</h1>
+          <p class="header__subtitle">Property Assistant</p>
+        </div>
+      </div>
+      <div class="header__status">
+        <span class="status-dot"></span>
+        <span class="status-text">Online</span>
+      </div>
+    </header>
+
+    <!-- Chat area -->
+    <main class="chat" id="chat">
+      <div class="chat__messages" id="messages">
+        <!-- Welcome message -->
+        <div class="message message--assistant message--welcome">
+          <div class="message__avatar">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <div class="message__content">
+            <div class="message__bubble">
+              <p class="message__greeting">Hello! 👋</p>
+              <p>I'm UrbanRoof's Property Assistant. I'm here to help you with any property-related concerns — whether it's dampness, leaks, cracks, or anything else.</p>
+              <p>Tell me what's going on, and I'll guide you through the next steps.</p>
+            </div>
+            <span class="message__time" id="welcome-time"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Input area -->
+    <footer class="input-area">
+      <div class="input-area__container">
+        <textarea
+          class="input-area__field"
+          id="userInput"
+          placeholder="Describe your property issue..."
+          rows="1"
+          maxlength="2000"
+        ></textarea>
+        <button class="input-area__send" id="sendBtn" title="Send message" disabled>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13" />
+            <polygon points="22 2 15 22 11 13 2 9 22 2" />
+          </svg>
+        </button>
+      </div>
+      <p class="input-area__disclaimer">UrbanRoof AI provides guidance only — not a substitute for professional inspection.</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
